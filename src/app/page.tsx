@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight, Github, Instagram, Linkedin, Mail } from "lucide-react"
 
@@ -39,10 +40,10 @@ export default function Home() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Hi, I'm <span className="text-primary">Your Name</span>
+                    Hi, I&aposm <span className="text-primary">Andrey Jackson</span>
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    I'm a passionate developer specializing in web development and design. I create beautiful,
+                    I&aposm a passionate developer specializing in web development and design. I create beautiful,
                     functional websites and applications.
                   </p>
                 </div>
@@ -58,7 +59,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-center justify-center">
-                <img
+                <Image
                   alt="Hero Image"
                   className="aspect-square overflow-hidden rounded-full object-cover border-4 border-border"
                   height="400"
@@ -81,7 +82,7 @@ export default function Home() {
             </div>
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
                  <Card className="overflow-hidden">
-                  <img
+                  <Image
                     alt={`Project name`}
                     className="aspect-video object-cover w-full"
                     height="225"
@@ -116,7 +117,7 @@ export default function Home() {
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Me</h2>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    I'm a passionate developer with expertise in web development. I love creating beautiful, functional
+                    I&aposm a passionate developer with expertise in web development. I love creating beautiful, functional
                     websites and applications that solve real problems.
                   </p>
                 </div>
@@ -159,7 +160,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-center justify-center">
-                <img
+                <Image
                   alt="About Me Image"
                   className="aspect-video overflow-hidden rounded-xl object-cover object-center"
                   height="310"
