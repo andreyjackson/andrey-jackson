@@ -9,7 +9,7 @@ export default function NotFound() {
           <div className="space-y-2">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">404 - Page Not Found</h1>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-              Sorry, the page you are looking for doesn't exist or has been moved.
+              Sorry, the page you are looking for doesn&apost exist or has been moved.
             </p>
           </div>
           <div className="space-x-4">

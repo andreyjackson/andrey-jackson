@@ -80,17 +80,16 @@ export default function Home() {
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
-              {[1, 2, 3, 4, 5, 6].map((project) => (
-                <Card key={project} className="overflow-hidden">
+                 <Card className="overflow-hidden">
                   <img
-                    alt={`Project ${project}`}
+                    alt={`Project name`}
                     className="aspect-video object-cover w-full"
                     height="225"
-                    src={`/placeholder.svg?height=225&width=400&text=Project+${project}`}
+                    src={`/placeholder.svg?height=225&width=400&text=Project+`}
                     width="400"
                   />
                   <CardContent className="p-4">
-                    <h3 className="font-bold text-xl mb-2">Project {project}</h3>
+                    <h3 className="font-bold text-xl mb-2">cahtbotwhatzapp</h3>
                     <p className="text-sm text-muted-foreground mb-4">
                       A brief description of this project and the technologies used.
                     </p>
@@ -99,16 +98,15 @@ export default function Home() {
                         <Link href="#">View Project</Link>
                       </Button>
                       <Button size="sm" variant="outline" asChild>
-                        <Link href="#">
+                        <a href="https://github.com/andreyjackson/" target="_blank">
                           <Github className="h-4 w-4" />
                           <span className="sr-only">GitHub</span>
-                        </Link>
+                        </a>
                       </Button>
                     </div>
                   </CardContent>
                 </Card>
-              ))}
-            </div>
+              </div>
           </div>
         </section>
         <section id="about" className="w-full py-12 md:py-24 lg:py-32">
